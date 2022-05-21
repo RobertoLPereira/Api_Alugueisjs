@@ -1,0 +1,47 @@
+{
+  "name": "Api-Alugueis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/babel src --out-dir dist",
+    "babel-node": "babel-node src/index.js",
+    "dev": "nodemon --exec npm run babel-node",
+    "start": "npm run babel-node"
+  },
+  "keywords": [],
+  "author": "Roberto lima Pereira",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "nodemon": "^1.18.3"
+  },
+  "dependencies": {
+    "@babel/node": "^7.0.0",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "chalk": "^4.1.0",
+    "consign": "^0.1.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.16.3",
+    "formidable": "^1.2.2",
+    "jsonwebtoken": "^8.5.1",
+    "mercadopago": "^1.5.8",
+    "permit": "^0.2.4",
+    "pg": "^8.7.3",
+    "sequelize": "^4.44.4",
+    "sequelize-views-support": "^1.2.2"
+  },
+  "bin": "src/index.js",
+  "pkg": {
+    "assets": [
+      "src/**/*"
+    ],
+    "targets": [
+      "node10"
+    ]
+  }
+}
