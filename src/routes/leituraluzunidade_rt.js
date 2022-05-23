@@ -1,6 +1,3 @@
-//Faça um replace na instrucao select das aspas duplas que estao em duplicidade
-	 // confere se o nome do campo primary key da leituraluzunidadeela está correto
-	 
 	 module.exports = app => {
     const Leituraluzunidade = app.db.models.leituraluzunidade;
 

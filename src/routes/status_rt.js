@@ -1,6 +1,5 @@
 module.exports = app => {
     const Status = app.db.models.status;
-
     app.route('/Status')
       .get((req, res) => {
         Status.findAll({})

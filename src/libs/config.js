@@ -4,7 +4,7 @@ module.exports = {
   password: 'rlp562',
   hostname: 'localhost',
   sslmode: require,
-  params: {
+  params: { 
     ssl:true,
 
     dialect: 'postgres',

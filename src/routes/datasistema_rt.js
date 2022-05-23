@@ -1,5 +1,5 @@
 module.exports = app => {
-  
+
     var data = new Date();
 
     app.route('/DataSistema')

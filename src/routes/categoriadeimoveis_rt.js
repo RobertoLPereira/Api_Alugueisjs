@@ -1,6 +1,6 @@
 //Faça um replace na instrucao select das aspas duplas que estao em duplicidade
 	 // confere se o nome do campo primary key da categoriadeimoveisela está correto
-	 
+	
 	 module.exports = app => {
     const Categoriadeimoveis = app.db.models.categoriadeimoveis;
 

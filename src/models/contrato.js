@@ -1,6 +1,6 @@
 const sequelizeBd = require("../libs/conect");
 module.exports = (sequelize, DataType) => {
-    const Contrato = sequelizeBd.define("contrato",
+    const Contrato = sequelizeBd.define("contrato", 
     {idcontrato:{type:DataType.INTEGER,primaryKey: true,autoIncrement: true},
 idunidadeimovel:{type:DataType.INTEGER},
 idlocador:{type:DataType.INTEGER},

@@ -1,5 +1,4 @@
 const Sequelize = require("sequelize");
-
 const path = require("path");
 const fs = require("fs");
 const sequelizeBd = require("./libs/conect.js");
@@ -12,7 +11,7 @@ module.exports = app => {
       config.username,
       config.password,
       config.params);
-
+ 
     db = {
       sequelize,
       Sequelize,

@@ -1,6 +1,3 @@
-//Faça um replace na instrucao select das aspas duplas que estao em duplicidade
-	 // confere se o nome do campo primary key da contactela está correto
-	 
 	 module.exports = app => {
     const Contact = app.db.models.contact;
 

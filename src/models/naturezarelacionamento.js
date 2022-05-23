@@ -5,4 +5,4 @@ module.exports = (sequelize, DataType) => {
 denominacao:{type:DataType.STRING},
  },{ freezeTableName: true,modelName: "naturezarelacionamento",timestamps: false,
 }); return Naturezarelacionamento;
-}
+} 

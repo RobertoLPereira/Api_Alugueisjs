@@ -1,6 +1,5 @@
 module.exports = app => {
     const Pessoas = app.db.models.pessoas;
-
     app.route('/Pessoas')
       .get((req, res) => {
         Pessoas.findAll({})

@@ -9,4 +9,4 @@ fim:{type:DataType.DATE},
 idimovel:{type:DataType.INTEGER},
  },{ freezeTableName: true,modelName: "vinculos",timestamps: false,
 }); return Vinculos;
-}
+} 

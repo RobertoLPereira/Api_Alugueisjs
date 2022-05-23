@@ -1,4 +1,5 @@
 module.exports = app => {
+  
     const Status = app.db.models.status;
     var wDashBoard = [{"Imoveis":{}},
     {"Contratos":{}},

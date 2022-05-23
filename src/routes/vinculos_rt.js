@@ -1,6 +1,5 @@
 module.exports = app => {
     const Vinculos = app.db.models.vinculos;
-
     app.route('/Vinculos')
       .get((req, res) => {
         Vinculos.findAll({})

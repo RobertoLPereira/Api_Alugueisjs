@@ -1,6 +1,5 @@
 module.exports = app => {
     const Contrato = app.db.models.contrato;
-
     app.route('/Contrato')
       .get((req, res) => {
         Contrato.findAll({})

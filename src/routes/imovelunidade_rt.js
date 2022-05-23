@@ -1,6 +1,5 @@
 module.exports = app => {
     const Imovelunidade = app.db.models.imovelunidade;
-
     app.route('/Imovelunidades')
       .get((req, res) => {
         //Imovelunidade.findAll({})

@@ -11,4 +11,4 @@ url_avatar:{type:DataType.STRING},
 email:{type:DataType.STRING},
  },{ freezeTableName: true,modelName: "pessoas",timestamps: false,
 }); return Pessoas;
-}
+} 

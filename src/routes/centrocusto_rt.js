@@ -1,6 +1,5 @@
 module.exports = app => {
     const Centrocusto = app.db.models.centrocusto;
-
     app.route('/Centrocusto')
       .get((req, res) => {
         Centrocusto.findAll({})

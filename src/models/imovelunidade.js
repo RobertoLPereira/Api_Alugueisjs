@@ -7,5 +7,5 @@ idlocatario:{type:DataType.INTEGER},
 descricao:{type:DataType.STRING},
 status:{type:DataType.INTEGER},
  },{ freezeTableName: true,modelName: "imovelunidade",timestamps: false,
-}); return Imovelunidade;
+}); return Imovelunidade; 
 }

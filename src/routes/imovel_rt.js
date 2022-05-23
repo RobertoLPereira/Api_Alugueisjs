@@ -1,7 +1,6 @@
 module.exports = app => {
     const Imovel = app.db.models.imovel;
-
-    app.route('/Imovel')
+    app.route('/Imoveis')
       .get((req, res) => {
         Imovel.findAll({})
           .then(result => res.json(result))

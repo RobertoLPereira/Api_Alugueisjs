@@ -1,6 +1,5 @@
 module.exports = app => {
     const Taxaadministracao = app.db.models.taxaadministracao;
-
     app.route('/Taxaadministracao')
       .get((req, res) => {
         Taxaadministracao.findAll({})

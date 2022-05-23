@@ -1,8 +1,8 @@
 require("dotenv").config();
+
 import express from 'express';
 import consign from 'consign';
 var bodyParser = require('body-parser');
-
 const app = express();
 app.use(express.static('./public'));
 app.use(bodyParser.urlencoded({extended: true}));

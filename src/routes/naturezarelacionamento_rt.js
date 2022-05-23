@@ -1,6 +1,5 @@
 module.exports = app => {
     const Naturezarelacionamento = app.db.models.naturezarelacionamento;
-
     app.route('/Naturezarelacionamento')
       .get((req, res) => {
         Naturezarelacionamento.findAll({})

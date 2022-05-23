@@ -10,5 +10,5 @@ dataleitura:{type:DataType.DATE},
 status:{type:DataType.INTEGER},
 valor:{type:DataType.DOUBLE},
  },{ freezeTableName: true,modelName: "leituraaguaunidade",timestamps: false,
-}); return Leituraaguaunidade;
+}); return Leituraaguaunidade; 
 }

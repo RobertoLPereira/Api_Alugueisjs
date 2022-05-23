@@ -1,6 +1,5 @@
 module.exports = app => {
     const Status = app.db.models.status;
-
     app.route('/Consultar/:condicao')
       .get((req, res) => {
         let wcondicao = req.params.condicao.replace("update", "xxxx");

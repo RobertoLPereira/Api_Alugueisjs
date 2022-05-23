@@ -9,4 +9,4 @@ idcontrato:{type:DataType.INTEGER},
 situacao:{type:DataType.INTEGER},
  },{ freezeTableName: true,modelName: "taxaadministracao",timestamps: false,
 }); return Taxaadministracao;
-}
+} 

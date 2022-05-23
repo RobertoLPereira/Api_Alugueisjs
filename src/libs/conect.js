@@ -11,4 +11,4 @@ sequelizeCn.authenticate()
 	.then(() => console.log("Conexao com sucesso!"))
 	.catch((err) => console.error("Não obteve sucesso na conexão",err));
 
-module.exports = sequelizeCn;
+module.exports = sequelizeCn; 

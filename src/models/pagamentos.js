@@ -9,4 +9,4 @@ desconto:{type:DataType.DOUBLE},
 idcontrato:{type:DataType.INTEGER},
  },{ freezeTableName: true,modelName: "pagamentos",timestamps: false,
 }); return Pagamentos;
-}
+} 
